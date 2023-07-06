@@ -25,10 +25,6 @@ params:
         imageWidth: 200 # custom size
         imageHeight: 237 # custom size
         buttons:
-            - name: Dev.to
-              url: "https://dev.to/mediocreDevops"
-            - name: Hashnode
-              url: "https://blog.mediocredevops.com/"
             - name: Github
               url: "https://github.com/afro-coder"
     socialIcons: # optional
