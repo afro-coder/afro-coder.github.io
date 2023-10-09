@@ -11,11 +11,17 @@ However since it was a long weekend and many people lost their routers too, the 
 
 So I did the next smartest thing I started looking on how to build a router because I've been quite interested in Hardware projects and I had recently purchased a switch so I had that handy.
 
-So let's get started:
-Things used:
+Bill of Materials:
 - OpenWRT
 - Raspberry Pi 2b, you could use a zero with a USB ethernet cable too.
-- A USB adapter for an extra internet port
+- A USB adapter for an extra ethernet port
 - A network switch to extend to more connections(Optional)
 - A wifi adapter(Optional)
 
+To begin with, head over to the [RaspberryPi page for OpenWRT](https://openwrt.org/toh/raspberry_pi_foundation/raspberry_pi)https://openwrt.org/toh/raspberry_pi_foundation/raspberry_pi
+
+I flashed the SDcard, there are various ways to connect with the raspberry pi, I don't remember exactly how but what I did was give the router a DHCP IP and connect it to my laptop, with this I could further configure the router.
+
+From there it was pretty easy although it took me two days(because I first tried it with Linux), the very first thing I had to do was connect to the ISP via PPPOE, to do this I had to reset the MAC address.
+
+Post that it was quite easy as I had to just setup a LAN section, 
